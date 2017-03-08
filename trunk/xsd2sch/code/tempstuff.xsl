@@ -36,7 +36,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 -->
-<xsl:template name="generate-standard-datatypes">
+<xsl:template name="generate-standard-datatypes" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:param name="prefix" />
 	<!-- TODO make use of prefix -->
 	

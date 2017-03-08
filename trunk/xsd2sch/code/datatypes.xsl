@@ -44,7 +44,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 -->
-<xsl:template name="generate-extended-datatypes">
+<xsl:template name="generate-extended-datatypes" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:param name="prefix" />
 	
 	<sch:rule abstract="true" id="{concat($prefix, '-xsd-datatype-normalizedString')}" > 
